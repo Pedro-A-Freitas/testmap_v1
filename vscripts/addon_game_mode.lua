@@ -7,8 +7,7 @@ local waveNumber = 1
 local waveCooldown = false
 local nextWaveTime = nil
 
-function Precache(context)
-end
+
 
 -- Inicializa o addon
 function Activate()
@@ -143,78 +142,196 @@ function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
 				local upskill6 = unit:FindAbilityByName("juggernaut_blade_dance")
                 if upskill6 then
                     upskill6:SetLevel(4)
+                end
 
                 local upskill7 = unit:FindAbilityByName("centaur_return")
                 if upskill7 then
                     upskill7:SetLevel(4)
+                end
 
                 local upskill8 = unit:FindAbilityByName("dawnbreaker_luminosity")
                 if upskill8 then
                     upskill8:SetLevel(4)
+                end
 
-                local upskill9 = unit:FindAbilityByName("razor_unstable_current")
+                local upskill9 = unit:FindAbilityByName("")
                 if upskill9 then
                     upskill9:SetLevel(4)
+                end
 
-                local upskill10 = unit:FindAbilityByName("lycan_feral_impulse")
+                local upskill10 = unit:FindAbilityByName("")
                 if upskill10 then
                     upskill10:SetLevel(4)
+                end
 
                 local upskill11 = unit:FindAbilityByName("monkey_king_jingu_mastery")
                 if upskill11 then
                     upskill11:SetLevel(4)
+                end
 
                 local upskill12 = unit:FindAbilityByName("spirit_breaker_greater_bash")
                 if upskill12 then
                     upskill12:SetLevel(4)
+                end
 
                 local upskill13 = unit:FindAbilityByName("sniper_headshot")
                 if upskill13 then
                     upskill13:SetLevel(4)
+                end
 
                 local upskill14 = unit:FindAbilityByName("slardar_bash")
                 if upskill14 then
                     upskill14:SetLevel(4)
+                end
 
                 local upskill15 = unit:FindAbilityByName("faceless_void_time_lock")
                 if upskill15 then
                     upskill15:SetLevel(4)
+                end
 
                 local upskill16 = unit:FindAbilityByName("shredder_reactive_armor")
                 if upskill16 then
                     upskill16:SetLevel(4)
+                end
 
                 local upskill17 = unit:FindAbilityByName("dragon_knight_dragon_blood")
                 if upskill17 then
                     upskill17:SetLevel(4)
+                end
 
                 local upskill18 = unit:FindAbilityByName("spectre_dispersion")
                 if upskill18 then
                     upskill18:SetLevel(4)
+                end
 
                 local upskill19 = unit:FindAbilityByName("")
                 if upskill19 then
                     upskill19:SetLevel(4)
+                end
 
-                local upskill20 = unit:FindAbilityByName("")
+                local upskill20 = unit:FindAbilityByName("skeleton_king_mortal_strike")
                 if upskill20 then
                     upskill20:SetLevel(4)
+                end
 
-                local upskill21 = unit:FindAbilityByName("")
+                local upskill21 = unit:FindAbilityByName("sven_great_cleave")
                 if upskill21 then
                     upskill21:SetLevel(4)
+                end
 
-                local upskill22 = unit:FindAbilityByName("")
+                local upskill22 = unit:FindAbilityByName("abyssal_underlord_atrophy_aura")
                 if upskill22 then
                     upskill22:SetLevel(4)
+                end
 
-                local upskill23 = unit:FindAbilityByName("")
+                local upskill23 = unit:FindAbilityByName("chaos_knight_chaos_strike")
                 if upskill23 then
                     upskill23:SetLevel(4)
+                end
 
-                local upskill24 = unit:FindAbilityByName("")
+                local upskill24 = unit:FindAbilityByName("phantom_assassin_immaterial")
                 if upskill24 then
                     upskill24:SetLevel(4)
+                end
+
+                local upskill25 = unit:FindAbilityByName("legion_commander_moment_of_courage")
+                if upskill25 then
+                    upskill25:SetLevel(4)
+                end
+
+                local upskill26 = unit:FindAbilityByName("elder_titan_natural_order")
+                if upskill26 then
+                    upskill26:SetLevel(4)
+                end
+
+                local upskill27 = unit:FindAbilityByName("venomancer_poison_sting")
+                if upskill27 then
+                    upskill27:SetLevel(4)
+                end
+
+                local upskill28 = unit:FindAbilityByName("medusa_mana_shield")
+                if upskill28 then
+                    upskill28:SetLevel(1)
+                end
+
+                local upskill29 = unit:FindAbilityByName("alchemist_corrosive_weaponry")
+                if upskill29 then
+                    upskill29:SetLevel(4)
+                end
+
+                local upskill30 = unit:FindAbilityByName("riki_backstab")
+                if upskill30 then
+                    upskill30:SetLevel(3)
+                end
+
+                local upskill31 = unit:FindAbilityByName("bristleback_bristleback")
+                if upskill31 then
+                    upskill31:SetLevel(4)
+                end
+
+                local upskill32 = unit:FindAbilityByName("enchantress_untouchable")
+                if upskill32 then
+                    upskill32:SetLevel(3)
+                end
+
+                local upskill33 = unit:FindAbilityByName("pangolier_lucky_shot")
+                if upskill33 then
+                    upskill33:SetLevel(4)
+                end
+
+                local upskill34 = unit:FindAbilityByName("skeleton_king_spectral_blade")
+                if upskill34 then
+                    upskill34:SetLevel(4)
+                end
+
+                local upskill35 = unit:FindAbilityByName("necrolyte_heartstopper_aura")
+                if upskill35 then
+                    upskill35:SetLevel(4)
+                end
+
+                local upskill36 = unit:FindAbilityByName("nevermore_dark_lord")
+                if upskill36 then
+                    upskill36:SetLevel(4)
+                end
+
+                local upskill37 = unit:FindAbilityByName("")
+                if upskill37 then
+                    upskill37:SetLevel(4)
+                end
+
+                local upskill38 = unit:FindAbilityByName("bloodseeker_thirst")
+                if upskill38 then
+                    upskill38:SetLevel(4)
+                end
+
+                local upskill39 = unit:FindAbilityByName("broodmother_incapacitating_bite")
+                if upskill39 then
+                    upskill39:SetLevel(4)
+                end
+
+                local upskill40 = unit:FindAbilityByName("life_stealer_feast")
+                if upskill40 then
+                    upskill40:SetLevel(4)
+                end
+
+                local upskill41 = unit:FindAbilityByName("naga_siren_rip_tide")
+                if upskill41 then
+                    upskill41:SetLevel(4)
+                end
+
+                local upskill42 = unit:FindAbilityByName("troll_warlord_berserkers_rage")
+                if upskill42 then
+                    upskill42:SetLevel(4)
+                end
+                
+                local upskill43 = unit:FindAbilityByName("phantom_assassin_coup_de_grace")
+                if upskill43 then
+                    upskill43:SetLevel(3)
+                end
+
+                local upskill44 = unit:FindAbilityByName("ursa_fury_swipes")
+                if upskill44 then
+                    upskill44:SetLevel(4)
                 end
 
                 -- Attack move AI
@@ -481,92 +598,81 @@ end
 -- WAVES --
 
 function SpawnWave1()
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", 15)
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11")
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2")
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8")
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8")
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1")
 end
 
 function SpawnWave2()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave2", 6)
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave2")
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2")
 end
 
 function SpawnWave3()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_gnoll_range_wave3", 10)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_gnoll_range_wave3")
 end
 
 function SpawnWave4()
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave4", 10)
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave4")
 end
 
 function SpawnWave5()
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_summuner_range_wave5", 10)
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_summuner_range_wave5")
 end
 
 function SpawnWave6()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave6", 10)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave6")
 end
 
 function SpawnWave7()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_siege_range_wave7", 5)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_siege_range_wave7")
 end
 
 function SpawnWave8()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8", 6)
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8")
 end
 
 function SpawnWave9()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9", 6)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9")
 end
 
 function SpawnWave10()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave10", 6)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave10")
 end
 
 function SpawnWave11()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11")
 end
 
 function SpawnWave12()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave12", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave12")
 end
 
 function SpawnWave13()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ghost_range_wave13", 6)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ghost_range_wave13")
 end
 
 function SpawnWave14()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_wolf_melee_wave14")
 end
 
 function SpawnWave15()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave15")
 end
 
 function SpawnWave16()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_centaur_melee_wave16")
 end
 
 function SpawnWave17()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_frog_range_wave17")
 end
 
 function SpawnWave18()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave18")
 end
 
 function SpawnWave19()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_troll_range_wave19")
 end
 
 function SpawnWave20()
@@ -574,53 +680,51 @@ function SpawnWave20()
 end
 
 function SpawnWave21()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave21")
 end
 
 function SpawnWave22()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_furbolg_melee_wave22")
 end
 
 function SpawnWave23()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragonspawn_range_wave23")
 end
 
 function SpawnWave24()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_melee_wave24")
 end
 
 function SpawnWave25()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_spawn_range_wave25")
 end
 
 function SpawnWave26()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ogre_melee_wave26")
 end
 
 function SpawnWave27()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave27")
 end
 
 function SpawnWave28()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_vulture_melee_wave28")
 end
 
 function SpawnWave29()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave29")
 end
 
 function SpawnWave30()
-    GameRules.AddonTemplate:SpawnEnemy("", 6)
-    GameRules.AddonTemplate:SpawnEnemy("", 2)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave30")
+end
+
+function SpawnWave31()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave34")
+end
+
+function SpawnWave32()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave35")
 end
 
 --[[function SpawnWave31()
