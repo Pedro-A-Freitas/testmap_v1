@@ -26,6 +26,8 @@ function CAddonTemplateGameMode:InitGameMode()
     GameRules:SetTimeOfDay(0.25)
     GameRules:SetUseUniversalShopMode(true)
 
+    GameRules:GetGameModeEntity():SetFixedRespawnTime(20.0)
+
     GameRules:GetGameModeEntity():SetTopBarTeamValuesOverride(true)
     GameRules:GetGameModeEntity():SetTopBarTeamValuesVisible(false)
 
@@ -95,11 +97,10 @@ end
 function CAddonTemplateGameMode:SpawnEnemy(unitName, amount)
 
     amount = amount or 1
-
-    -- lista de spawns, você pode adicionar offsets diferentes
+    
     local spawns = {
-        Entities:FindByName(nil, "enemy_spawn"),  -- spawn principal
-        Entities:FindByName(nil, "enemy_spawn2")  -- segundo spawn
+        Entities:FindByName(nil, "enemy_spawn"),
+        Entities:FindByName(nil, "enemy_spawn2")
     }
 
     local goal = Entities:FindByName(nil, "enemy_goal")
@@ -472,6 +473,13 @@ function CAddonTemplateGameMode:StartWave()
 end
 
 function SpawnWave(n)
+
+    if _G.CurrentAnnouncedWave == n then return end
+    _G.CurrentAnnouncedWave = n
+
+    -- 2. Este comando é enviado pelo Engine, não pelo script de chat
+    local msg = "Wave " .. n .. " começando!"
+    GameRules:SendCustomMessage(msg, 0, 0)
 
     if n == 1 then
         SpawnWave1()

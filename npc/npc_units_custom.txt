@@ -17,13 +17,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"    			"4" 
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -96,13 +97,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -176,13 +178,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -258,13 +261,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -340,13 +344,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -419,13 +424,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -500,13 +506,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -581,13 +588,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -662,13 +670,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -741,13 +750,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -822,13 +832,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_25"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -903,13 +914,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"5"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"roshan_bash"			// Ability 1
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					"slardar_bash"			// Ability 3
-		"Ability6"					"faceless_void_time_lock"			// Ability 4
+		"Ability4"					"faceless_void_time_lock"			// Ability 4
 		"Ability5"					"wave_resist_25"			// Ability 5
 
 		// Armor
@@ -983,13 +995,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"troll_warlord_fervor"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1064,13 +1077,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1143,13 +1157,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1224,13 +1239,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"juggernaut_blade_dance"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1303,13 +1319,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1384,13 +1401,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"axe_counter_helix"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1463,13 +1481,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"dawnbreaker_luminosity"			// Ability 1
 		"Ability2"					"wave_resist_50"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1544,13 +1563,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_50"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1623,13 +1643,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_50"			// Ability 1
 		"Ability2"					"spirit_breaker_greater_bash"			// Ability 2
 		"Ability3"					""			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1704,13 +1725,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"7"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					"shredder_reactive_armor"			// Ability 2
 		"Ability3"					"dragon_knight_dragon_blood"			// Ability 3
-		"Ability8"					"axe_counter_helix"			// Ability 4
+		"Ability4"					"axe_counter_helix"			// Ability 4
 		"Ability5"					"spectre_dispersion"			// Ability 5
 		"Ability6"					"bristleback_bristleback"			// Ability 6
 		"Ability7"					"wave_resist_50"			// Ability 7
@@ -1786,13 +1808,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"skeleton_king_spectral_blade"			// Ability 1
 		"Ability2"					"skeleton_king_mortal_strike"			// Ability 2
 		"Ability3"					"wave_resist_75"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1867,13 +1890,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"abyssal_underlord_atrophy_aura"			// Ability 1
 		"Ability2"					"sven_great_cleave"			// Ability 2
 		"Ability3"					"wave_resist_75"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -1946,13 +1970,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"chaos_knight_chaos_strike"			// Ability 1
 		"Ability2"					"phantom_assassin_immaterial"			// Ability 2
 		"Ability3"					"wave_resist_75"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2027,13 +2052,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"troll_warlord_fervor"			// Ability 1
 		"Ability2"					"elder_titan_natural_order"			// Ability 2
 		"Ability3"					"wave_resist_75"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2106,13 +2132,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"broodmother_incapacitating_bite"			// Ability 2
 		"Ability3"					"alchemist_corrosive_weaponry"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2187,13 +2214,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"alchemist_corrosive_weaponry"			// Ability 1
 		"Ability2"					"wave_resist_75"			// Ability 2
 		"Ability3"					"medusa_mana_shield"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2266,13 +2294,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"enchantress_untouchable"			// Ability 2
 		"Ability3"					"life_stealer_feast"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2347,13 +2376,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"skeleton_king_spectral_blade"			// Ability 1
 		"Ability2"					"necrolyte_heartstopper_aura"			// Ability 2
 		"Ability3"					"wave_resist_75"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2426,13 +2456,14 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"4"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"wave_resist_75"			// Ability 1
 		"Ability2"					"bloodseeker_thirst"			// Ability 2
 		"Ability3"					"broodmother_incapacitating_bite"			// Ability 3
-		"Ability6"					""			// Ability 4
+		"Ability4"					""			// Ability 4
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2507,18 +2538,17 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"9"
 
 		// Abilities
 		//----------------------------------------------------------------
 		"Ability1"					"ursa_fury_swipes"			// Ability 1
 		"Ability2"					"phantom_assassin_coup_de_grace"			// Ability 2
 		"Ability3"					"roshan_bash"			// Ability 3
-		"Ability10"					"naga_siren_rip_tide"			// Ability 4
-		"Ability5"					"life_stealer_feast"			// Ability 5
-		"Ability6"					"bloodseeker_thirst"			// Ability 6
-		"Ability7"					"troll_warlord_fervor"			// Ability 7
-		"Ability8"					"chaos_knight_chaos_strike"			// Ability 8
-		"Ability9"					"wave_resist_75"			// Ability 9
+		"Ability4"					"life_stealer_feast"			// Ability 4
+		"Ability5"					"bloodseeker_thirst"			// Ability 5
+		"Ability6"					"troll_warlord_fervor"			// Ability 6
+		"Ability7"					"wave_resist_75"			// Ability 7
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2591,6 +2621,7 @@
 		"Level"						"1"
 		"ModelScale" 				".9"
 		"ConsideredHero"			"1"
+		"AbilityLayout"     		"11"
 
 		// Abilities
 		//----------------------------------------------------------------
