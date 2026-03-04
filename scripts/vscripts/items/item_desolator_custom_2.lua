@@ -20,7 +20,7 @@ function modifier_item_desolator_custom_2:GetAttributes() return MODIFIER_ATTRIB
 function modifier_item_desolator_custom_2:OnCreated()
     if not IsServer() then return end
     if not self:GetAbility().charges then self:GetAbility().charges = 0 end
-    self:StartIntervalThink(0.1)
+    self:StartIntervalThink(0.5)
 end
 
 function modifier_item_desolator_custom_2:OnIntervalThink()

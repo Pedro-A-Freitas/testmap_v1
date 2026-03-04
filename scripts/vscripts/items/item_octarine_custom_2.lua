@@ -29,7 +29,7 @@ function modifier_item_octarine_custom_2:GetModifierHealthBonus() return 900 end
 function modifier_item_octarine_custom_2:GetModifierManaBonus() return 900 end
 function modifier_item_octarine_custom_2:GetModifierConstantManaRegen() return 12 end -- 6(x2)
 
--- Redução de Cooldown (35% fixo)
+-- Redução de Cooldown (40% fixo)
 function modifier_item_octarine_custom_2:GetModifierPercentageCooldown()
-    return 35
+    return 40
 end

@@ -1049,7 +1049,7 @@
         "ScriptFile"                    "items/item_bracer_custom_2"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
         "AbilityTextureName"            "bracer"
-        "ItemCost"                      "2020" // 505 * 4
+        "ItemCost"                      "1010" //
         "ItemShopTags"                  "artifacts;str;health_regen;health"
     }
 
@@ -1058,7 +1058,7 @@
         "ID"                            "5080"
         "BaseClass"                     "item_recipe_arcane_boots"
         "ItemRecipe"                    "1"
-        "ItemCost"                      "1515" // Para fechar 2020 total (505 base + 1515 recipe)
+        "ItemCost"                      "505"
         "ItemResult"                    "item_bracer_custom_2"
         "ItemRequirements"
         {
@@ -1074,7 +1074,7 @@
         "ScriptFile"                    "items/item_wraith_band_custom_2"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
         "AbilityTextureName"            "wraith_band"
-        "ItemCost"                      "2020"
+        "ItemCost"                      "1010"
         "ItemShopTags"                  "artifacts;agi;armor;preattack"
     }
 
@@ -1083,7 +1083,7 @@
         "ID"                            "5082"
         "BaseClass"                     "item_recipe_arcane_boots"
         "ItemRecipe"                    "1"
-        "ItemCost"                      "1515"
+        "ItemCost"                      "505"
         "ItemResult"                    "item_wraith_band_custom_2"
         "ItemRequirements"
         {
@@ -1099,7 +1099,7 @@
         "ScriptFile"                    "items/item_null_talisman_custom_2"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
         "AbilityTextureName"            "null_talisman"
-        "ItemCost"                      "2020"
+        "ItemCost"                      "1010"
         "ItemShopTags"                  "artifacts;int;mana_regen;mana"
     }
 
@@ -1108,7 +1108,7 @@
         "ID"                            "5084"
         "BaseClass"                     "item_recipe_arcane_boots"
         "ItemRecipe"                    "1"
-        "ItemCost"                      "1515"
+        "ItemCost"                      "505"
         "ItemResult"                    "item_null_talisman_custom_2"
         "ItemRequirements"
         {

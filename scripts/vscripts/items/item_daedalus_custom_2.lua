@@ -31,7 +31,7 @@ function modifier_item_daedalus_custom_2:GetModifierPreAttack_CriticalStrike(par
         if RollPercentage(40) then
             -- Som de crítico original da Daedalus
             self:GetParent():EmitSound("DOTA_Item.Daedalus.Crit")
-            return 350
+            return 450
         end
     end
 end

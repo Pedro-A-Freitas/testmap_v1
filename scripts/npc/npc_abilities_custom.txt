@@ -495,4 +495,70 @@
 			}
 		}
 	}
+
+	//=================================================================================================================
+	// Morphling
+	//=================================================================================================================
+	"morphling_attribute_mastery_custom"
+	{
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/morphling_attribute_mastery_custom"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityTextureName"            "morphling_replicate" // Usando o ícone da Ult antiga
+		
+		// Níveis da Ult
+		"MaxLevel"                      "3"
+		"AbilityLevelStatsMultiplier"   "1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_stats"           "30 60 90"
+			}
+		}
+	}
+
+	"bounty_hunter_jinada_custom"
+	{
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/bounty_hunter_jinada_custom"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"            "bounty_hunter_jinada"
+		"MaxLevel"                      "4"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"bonus_damage"          "70 105 140 175"
+			}
+			"02"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"gold_gain"             "10 20 30 40"
+			}
+			"03"
+			{
+				"var_type"              "FIELD_FLOAT"
+				"cooldown"              "9 7 5 3"
+			}
+		}
+	}
+
+	"bounty_hunter_track_custom"
+	{
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/bounty_hunter_track_custom"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"         "DOTA_UNIT_TARGET_ALL" // Alvos: Heróis, Creeps, tudo.
+		"AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityTextureName"            "bounty_hunter_track"
+		"MaxLevel"                      "3"
+		"AbilityCastRange"              "1000"
+	}
 }

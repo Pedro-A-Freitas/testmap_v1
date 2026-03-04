@@ -93,4 +93,21 @@
     {
         "Ability6" "axe_culling_blade_custom" 
     }
+
+    //==================================================
+    // HERO: npc_dota_hero_morphling
+    //==================================================
+    "npc_dota_hero_morphling"
+    {
+        "Ability6" "morphling_attribute_mastery_custom" 
+    }
+
+    //==================================================
+    // HERO: npc_dota_hero_bounty_hunter
+    //==================================================
+    "npc_dota_hero_bounty_hunter"
+    {
+        "Ability2" "bounty_hunter_jinada_custom"
+        "Ability6" "bounty_hunter_track_custom" 
+    }
 }
