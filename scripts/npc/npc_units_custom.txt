@@ -1732,10 +1732,9 @@
 		"Ability1"					"tidehunter_kraken_shell"			// Ability 1
 		"Ability2"					"shredder_reactive_armor"			// Ability 2
 		"Ability3"					"dragon_knight_dragon_blood"			// Ability 3
-		"Ability4"					"axe_counter_helix"			// Ability 4
-		"Ability5"					"spectre_dispersion"			// Ability 5
-		"Ability6"					"bristleback_bristleback"			// Ability 6
-		"Ability7"					"wave_resist_50"			// Ability 7
+		"Ability4"					"spectre_dispersion"			// Ability 4
+		"Ability5"					"bristleback_bristleback"			// Ability 5
+		"Ability6"					"wave_resist_50"			// Ability 6
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2542,13 +2541,13 @@
 
 		// Abilities
 		//----------------------------------------------------------------
-		"Ability1"					"ursa_fury_swipes"			// Ability 1
-		"Ability2"					"phantom_assassin_coup_de_grace"			// Ability 2
-		"Ability3"					"roshan_bash"			// Ability 3
-		"Ability4"					"life_stealer_feast"			// Ability 4
-		"Ability5"					"bloodseeker_thirst"			// Ability 5
-		"Ability6"					"troll_warlord_fervor"			// Ability 6
-		"Ability7"					"wave_resist_75"			// Ability 7
+		"Ability1"					"roshan_bash"			// Ability 1
+		"Ability2"					"life_stealer_feast"			// Ability 2
+		"Ability3"					"bloodseeker_thirst"			// Ability 3
+		"Ability4"					"troll_warlord_fervor"			// Ability 4
+		"Ability5"					"wave_resist_75"			// Ability 5
+		"Ability6"					"medusa_mana_shield"			// Ability 6
+		"Ability7"					"elder_titan_natural_order"			// Ability 7
 
 		// Armor
 		//----------------------------------------------------------------
@@ -2634,8 +2633,7 @@
 		"Ability7"					"skeleton_king_mortal_strike"			// Ability 7
 		"Ability8"					"chaos_knight_chaos_strike"			// Ability 8
 		"Ability9"					"phantom_assassin_coup_de_grace"			// Ability 9
-		"Ability10"					"ursa_fury_swipes"			// Ability 10
-		"Ability11"					"wave_resist_75"			// Ability 11
+		"Ability10"					"wave_resist_75"			// Ability 10
 
 		// Armor
 		//----------------------------------------------------------------
