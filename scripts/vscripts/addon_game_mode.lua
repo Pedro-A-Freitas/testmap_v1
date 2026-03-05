@@ -395,15 +395,15 @@ function GiveWaveReward()
 
     -- Waves 1–20
     if waveNumber >= 1 and waveNumber <= 10 then
-        rewardGold = 1000
+        rewardGold = 1500
         rewardXP   = 1000
 
     elseif waveNumber >= 11 and waveNumber <= 20 then
-        rewardGold = 1500
+        rewardGold = 2000
         rewardXP   = 1500
 
     else
-        rewardGold = 2000
+        rewardGold = 2500
         rewardXP   = 2000
     end
 
