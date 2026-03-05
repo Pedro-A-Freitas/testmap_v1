@@ -1115,4 +1115,52 @@
             "01"                        "item_null_talisman"
         }
     }
+
+    "item_tome_str_custom"
+    {
+        "ID"                            "5101"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_tome_str_custom"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "tome_of_knowledge" 
+        
+        "ItemCost"                      "500"
+        "ItemInitialCharges"            "1"
+        "ItemPermanent"                 "0" 
+        "ItemKillable"                  "1"
+        "ItemSellable"                  "1"
+        "ItemPurchasable"               "1"
+    }
+
+    "item_tome_agi_custom"
+    {
+        "ID"                            "5102"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_tome_agi_custom"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "tome_of_knowledge"
+        
+        "ItemCost"                      "500"
+        "ItemInitialCharges"            "1"
+        "ItemPermanent"                 "0" 
+        "ItemKillable"                  "1"
+        "ItemSellable"                  "1"
+        "ItemPurchasable"               "1"
+    }
+
+    "item_tome_int_custom"
+    {
+        "ID"                            "5103"
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_tome_int_custom"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "tome_of_knowledge" 
+        
+        "ItemCost"                      "500"
+        "ItemInitialCharges"            "1"
+        "ItemPermanent"                 "0"
+        "ItemKillable"                  "1"
+        "ItemSellable"                  "1"
+        "ItemPurchasable"               "1"
+    }
 }

@@ -1,0 +1,12 @@
+"item_builds"
+{
+    "items"
+    {
+        "Tomos de Atributo"
+        {
+            "item"      "item_tome_str_custom"
+            "item"      "item_tome_agi_custom"
+            "item"      "item_tome_int_custom"
+        }
+    }
+}
