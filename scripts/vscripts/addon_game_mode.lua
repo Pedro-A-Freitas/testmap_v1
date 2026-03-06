@@ -593,125 +593,126 @@ end
 -- WAVES --
 
 function SpawnWave1()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
-end
-
-function SpawnWave2()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave2")
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2")
-end
-
-function SpawnWave3()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_gnoll_range_wave3")
-end
-
-function SpawnWave4()
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave4")
-end
-
-function SpawnWave5()
-	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_summuner_range_wave5")
-end
-
-function SpawnWave6()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave6")
-end
-
-function SpawnWave7()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_siege_range_wave7")
-end
-
-function SpawnWave8()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8")
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8")
-end
-
-function SpawnWave9()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9")
-end
-
-function SpawnWave10()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave10")
-end
-
-function SpawnWave11()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11")
-end
-
-function SpawnWave12()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave12")
-end
-
-function SpawnWave13()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ghost_range_wave13")
-end
-
-function SpawnWave14()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_wolf_melee_wave14")
-end
-
-function SpawnWave15()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave15")
-end
-
-function SpawnWave16()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_centaur_melee_wave16")
-end
-
-function SpawnWave17()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_frog_range_wave17")
-end
-
-function SpawnWave18()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave18")
-end
-
-function SpawnWave19()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_troll_range_wave19")
-end
-
-function SpawnWave20()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave20")
-end
-
-function SpawnWave21()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave21")
-end
-
-function SpawnWave22()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_furbolg_melee_wave22")
-end
-
-function SpawnWave23()
+    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
     GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragonspawn_range_wave23")
 end
 
+function SpawnWave2()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave2", players)
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave2", players)
+end
+
+function SpawnWave3()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_gnoll_range_wave3", players)
+end
+
+function SpawnWave4()
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave4", players)
+end
+
+function SpawnWave5()
+	GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_summuner_range_wave5", players)
+end
+
+function SpawnWave6()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragon_range_wave6", players)
+end
+
+function SpawnWave7()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_siege_range_wave7", players)
+end
+
+function SpawnWave8()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_melee_wave8", players)
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_creep_range_wave8", players)
+end
+
+function SpawnWave9()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_range_wave9", players)
+end
+
+function SpawnWave10()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave10", players)
+end
+
+function SpawnWave11()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_priest_range_wave11", players)
+end
+
+function SpawnWave12()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_golem_melee_wave12", players)
+end
+
+function SpawnWave13()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ghost_range_wave13", players)
+end
+
+function SpawnWave14()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_wolf_melee_wave14", players)
+end
+
+function SpawnWave15()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave15", players)
+end
+
+function SpawnWave16()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_centaur_melee_wave16", players)
+end
+
+function SpawnWave17()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_frog_range_wave17", players)
+end
+
+function SpawnWave18()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave18", players)
+end
+
+function SpawnWave19()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_troll_range_wave19", players)
+end
+
+function SpawnWave20()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave20", players)
+end
+
+function SpawnWave21()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_harpy_range_wave21", players)
+end
+
+function SpawnWave22()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_furbolg_melee_wave22", players)
+end
+
+function SpawnWave23()
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragonspawn_range_wave23", players)
+end
+
 function SpawnWave24()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_melee_wave24")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_satyr_melee_wave24", players)
 end
 
 function SpawnWave25()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_spawn_range_wave25")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_spawn_range_wave25", players)
 end
 
 function SpawnWave26()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ogre_melee_wave26")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_ogre_melee_wave26", players)
 end
 
 function SpawnWave27()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave27")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave27", players)
 end
 
 function SpawnWave28()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_vulture_melee_wave28")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_vulture_melee_wave28", players)
 end
 
 function SpawnWave29()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave29")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_lizard_range_wave29", players)
 end
 
 function SpawnWave30()
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave30")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_roshan_melee_wave30", players)
 end
 
 function SpawnWave31()

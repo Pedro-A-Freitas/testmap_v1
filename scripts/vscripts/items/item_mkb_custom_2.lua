@@ -13,52 +13,58 @@ function modifier_item_mkb_custom_2:IsHidden() return true end
 function modifier_item_mkb_custom_2:IsPurgable() return false end
 function modifier_item_mkb_custom_2:GetAttributes() return MODIFIER_ATTRIBUTE_MULTIPLE end
 
+-- =========================================================================
+-- O SEGREDO ESTÁ AQUI: ESTADOS ABSOLUTOS
+-- =========================================================================
+function modifier_item_mkb_custom_2:CheckState()
+    return {
+        -- Esta linha desliga completamente o conceito de "Miss" para este herói.
+        [MODIFIER_STATE_CANNOT_MISS] = true,
+    }
+end
+
 function modifier_item_mkb_custom_2:DeclareFunctions()
     return {
         MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE,
         MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT,
-        MODIFIER_PROPERTY_CHECK_ACCESS_TO_TRUE_STRIKE,
         MODIFIER_EVENT_ON_ATTACK_LANDED,
     }
 end
 
--- BÔNUS DE DANO HARDCODED (80)
+-- BÔNUS DE DANO BASE (80)
 function modifier_item_mkb_custom_2:GetModifierPreAttack_BonusDamage()
     return 80
 end
 
--- BÔNUS DE ATTACK SPEED HARDCODED (90)
+-- BÔNUS DE ATTACK SPEED (90)
 function modifier_item_mkb_custom_2:GetModifierAttackSpeedBonus_Constant()
     return 90
 end
 
--- TRUE STRIKE
-function modifier_item_mkb_custom_2:GetModifierCheckAccessToTrueStrike()
-    return 1
-end
-
--- LÓGICA DO PROC (80% / 140 dano)
 function modifier_item_mkb_custom_2:OnAttackLanded(params)
     if not IsServer() then return end
+    
     if params.attacker ~= self:GetParent() then return end
     if params.target:IsBuilding() or params.target:IsOther() then return end
 
-    -- Usando valores fixos aqui também para evitar falhas do KV
-    local chance = 80
-    local damage = 140
+    local damage_extra = 140
 
-    if RollPercentage(chance) then
-        params.target:EmitSound("DOTA_Item.MonkeyKingBar.Target")
-        
-        local pfx = ParticleManager:CreateParticle("particles/items_fx/monkey_king_bar_proc.vpcf", PATTACH_ABSORIGIN_FOLLOW, params.target)
-        ParticleManager:ReleaseParticleIndex(pfx)
+    -- Aplica o dano mágico real que tira o HP
+    ApplyDamage({
+        victim = params.target,
+        attacker = self:GetParent(),
+        damage = damage_extra,
+        damage_type = DAMAGE_TYPE_MAGICAL,
+        ability = self:GetAbility()
+    })
 
-        ApplyDamage({
-            victim = params.target,
-            attacker = self:GetParent(),
-            damage = damage,
-            damage_type = DAMAGE_TYPE_MAGICAL,
-            ability = self:GetAbility()
-        })
-    end
+    -- =========================================================================
+    -- A MÁGICA VISUAL: Faz o número 140 subir na tela do alvo
+    -- =========================================================================
+    SendOverheadEventMessage(nil, OVERHEAD_ALERT_BONUS_SPELL_DAMAGE, params.target, damage_extra, nil)
+
+    -- Sons e Partículas
+    params.target:EmitSound("DOTA_Item.MonkeyKingBar.Target")
+    local pfx = ParticleManager:CreateParticle("particles/items_fx/monkey_king_bar_proc.vpcf", PATTACH_ABSORIGIN_FOLLOW, params.target)
+    ParticleManager:ReleaseParticleIndex(pfx)
 end

@@ -2544,10 +2544,9 @@
 		"Ability1"					"roshan_bash"			// Ability 1
 		"Ability2"					"life_stealer_feast"			// Ability 2
 		"Ability3"					"bloodseeker_thirst"			// Ability 3
-		"Ability4"					"troll_warlord_fervor"			// Ability 4
-		"Ability5"					"wave_resist_75"			// Ability 5
-		"Ability6"					"medusa_mana_shield"			// Ability 6
-		"Ability7"					"elder_titan_natural_order"			// Ability 7
+		"Ability4"					"wave_resist_75"			// Ability 5
+		"Ability5"					"medusa_mana_shield"			// Ability 6
+		"Ability6"					"elder_titan_natural_order"			// Ability 7
 
 		// Armor
 		//----------------------------------------------------------------

@@ -1163,4 +1163,21 @@
         "ItemSellable"                  "1"
         "ItemPurchasable"               "1"
     }
+
+    "item_tome_spd_custom"
+    {
+        "ID"                            "5106" // Coloque um ID que não esteja em uso
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "items/item_tome_spd_custom"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "AbilityTextureName"            "boots_of_speed" // Usando o ícone da bota enquanto você não põe outro
+        
+        "ItemCost"                      "750" // Ajuste o preço como preferir
+        "ItemInitialCharges"            "1"
+        "ItemIsConsume"                 "1"
+        "ItemPermanent"                 "0"    
+        "ItemStackable"                 "1"
+        "ItemDeclarativeCustody"        "1"
+        "ItemShareability"              "ITEM_FULLY_SHAREABLE"
+    }
 }
