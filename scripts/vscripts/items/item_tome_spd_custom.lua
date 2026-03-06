@@ -3,48 +3,52 @@ LinkLuaModifier("modifier_tome_spd_bonus", "items/item_tome_spd_custom", LUA_MOD
 
 function item_tome_spd_custom:OnSpellStart()
     if not IsServer() then return end
-
     local caster = self:GetCaster()
-    
-    -- Efeitos Visuais e Sonoros
-    caster:EmitSound("Item.TomeOfKnowledge.Consume")
-    local pfx = ParticleManager:CreateParticle("particles/generic_hero_status/hero_levelup.vpcf", PATTACH_ABSORIGIN_FOLLOW, caster)
-    ParticleManager:ReleaseParticleIndex(pfx)
+    local item = self
 
-    -- Verifica se o herói já tem o modificador invisível
-    local modifier = caster:FindModifierByName("modifier_tome_spd_bonus")
-    if not modifier then
-        -- Se não tiver, cria. Usamos "nil" no lugar da habilidade para que o 
-        -- bônus não suma quando o item for deletado do inventário
-        modifier = caster:AddNewModifier(caster, nil, "modifier_tome_spd_bonus", {})
+    if caster and caster:IsRealHero() then
+        -- VERIFICAÇÃO DE LIMITE (MÁXIMO 5)
+        local modifier = caster:FindModifierByName("modifier_tome_spd_bonus")
+        if modifier and modifier:GetStackCount() >= 5 then
+            return 
+        end
+
+        if not modifier then
+            modifier = caster:AddNewModifier(caster, nil, "modifier_tome_spd_bonus", {})
+        end
+        if modifier then
+            modifier:IncrementStackCount()
+        end
+
+        caster:EmitSound("Item.TomeOfKnowledge.Consume")
+
+        -- LÓGICA DE DESTRUIÇÃO IDÊNTICA AO SEU DE AGI
+        GameRules:GetGameModeEntity():SetContextThink(DoUniqueString("destroy_item"), function()
+            if not item:IsNull() then
+                item:Destroy()
+            end
+            return nil
+        end, 0.1)
     end
-
-    -- Adiciona 1 stack ao modificador
-    if modifier then
-        modifier:IncrementStackCount()
-    end
-
-    -- Consome a carga do item
-    self:SpendCharge()
 end
 
----------------------------------------------------------------------------
--- O MODIFICADOR INVISÍVEL QUE DÁ O BÔNUS
 ---------------------------------------------------------------------------
 modifier_tome_spd_bonus = class({})
 
-function modifier_tome_spd_bonus:IsHidden() return true end         -- Fica invisível pro jogador
-function modifier_tome_spd_bonus:IsPurgable() return false end      -- Não pode ser removido (tipo por Diffusal)
-function modifier_tome_spd_bonus:RemoveOnDeath() return false end   -- O herói não perde ao morrer
+-- ATIVANDO O VISUAL:
+function modifier_tome_spd_bonus:IsHidden() return false end       -- Agora ele aparece no HUD
+function modifier_tome_spd_bonus:IsPurgable() return false end
+function modifier_tome_spd_bonus:RemoveOnDeath() return false end
 
-function modifier_tome_spd_bonus:DeclareFunctions()
-    return {
-        MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT,
-    }
+-- Define qual ícone vai aparecer no buff (estou usando o da bota)
+function modifier_tome_spd_bonus:GetTexture()
+    return "boots_of_speed"
 end
 
-function modifier_tome_spd_bonus:GetModifierMoveSpeedBonus_Constant()
-    -- Multiplica os Stacks por 50. 
-    -- 1 Tomo = 50 MS | 2 Tomos = 100 MS e assim vai.
-    return self:GetStackCount() * 50
+function modifier_tome_spd_bonus:DeclareFunctions() 
+    return { MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT } 
+end
+
+function modifier_tome_spd_bonus:GetModifierMoveSpeedBonus_Constant() 
+    return self:GetStackCount() * 50 
 end

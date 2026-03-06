@@ -593,8 +593,7 @@ end
 -- WAVES --
 
 function SpawnWave1()
-    --GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
-    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_dragonspawn_range_wave23")
+    GameRules.AddonTemplate:SpawnEnemy("npc_dota_neutral_kobold_melee_wave1", players)
 end
 
 function SpawnWave2()
@@ -765,7 +764,7 @@ function SpawnWave31()
         end
 
         for _, unitName in ipairs(waves[index]) do
-            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+            GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
 
         index = index + 1
@@ -824,7 +823,7 @@ function SpawnWave32()
         end
 
         for _, unitName in ipairs(waves[index]) do
-            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+            GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
 
         index = index + 1
@@ -883,7 +882,7 @@ function SpawnWave33()
         end
 
         for _, unitName in ipairs(waves[index]) do
-            GameRules.AddonTemplate:SpawnEnemy(unitName, 1)
+            GameRules.AddonTemplate:SpawnEnemy(unitName, players)
         end
 
         index = index + 1
