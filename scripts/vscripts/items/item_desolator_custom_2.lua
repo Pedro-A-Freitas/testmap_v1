@@ -20,7 +20,7 @@ function modifier_item_desolator_custom_2:GetAttributes() return MODIFIER_ATTRIB
 function modifier_item_desolator_custom_2:OnCreated()
     if not IsServer() then return end
     if not self:GetAbility().charges then self:GetAbility().charges = 0 end
-    self:StartIntervalThink(0.5)
+    self:StartIntervalThink(0.1)
 end
 
 function modifier_item_desolator_custom_2:OnIntervalThink()
@@ -63,7 +63,7 @@ function modifier_item_desolator_custom_2:OnDeath(params)
     -- Verifica se a unidade que morreu tinha o debuff da Desolator
     if victim:HasModifier("modifier_item_desolator_custom_2_corruption") then
         if ability.charges < max_charges then
-            ability.charges = math.min(ability.charges + 0.1, max_charges)
+            ability.charges = math.min(ability.charges + 0.5, max_charges)
             
             -- CRIAR E DESTRUIR A PARTÍCULA (Para não ficar a bolinha parada no chão)
             local pfx = ParticleManager:CreateParticle("particles/items_fx/desolator_projectile.vpcf", PATTACH_ABSORIGIN_FOLLOW, victim)

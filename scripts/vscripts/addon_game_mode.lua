@@ -870,7 +870,7 @@ function SpawnWave31()
         end
         
         index = index + 1
-        return 10.0
+        return 2.0
     end, 0)
 end
 
@@ -912,22 +912,22 @@ function SpawnWave32()
         end
         
         index = index + 1
-        return 15.0
+        return 5.0
     end, 0)
 end
 
 function SpawnWave33()
     local monstros = {
-        { "npc_dota_neutral_priest_range_wave11" },
-        { "npc_dota_neutral_golem_melee_wave12" },
-        { "npc_dota_neutral_ghost_range_wave13" },
-        { "npc_dota_neutral_wolf_melee_wave14" },
-        { "npc_dota_neutral_harpy_range_wave15" },
-        { "npc_dota_neutral_centaur_melee_wave16" },
-        { "npc_dota_neutral_frog_range_wave17" },
-        { "npc_dota_neutral_kobold_melee_wave18" },
-        { "npc_dota_neutral_troll_range_wave19" },
-        { "npc_dota_neutral_roshan_melee_wave20" }
+        { "npc_dota_neutral_harpy_range_wave21" },
+        { "npc_dota_neutral_furbolg_melee_wave22" },
+        { "npc_dota_neutral_dragonspawn_range_wave23" },
+        { "npc_dota_neutral_satyr_melee_wave24" },
+        { "npc_dota_neutral_spawn_range_wave25" },
+        { "npc_dota_neutral_ogre_melee_wave26" },
+        { "npc_dota_neutral_lizard_range_wave27" },
+        { "npc_dota_neutral_vulture_melee_wave28" },
+        { "npc_dota_neutral_lizard_range_wave29" },
+        { "npc_dota_neutral_roshan_melee_wave30" }
     }
 
     local unidadesPorSpawn = 0
@@ -954,7 +954,7 @@ function SpawnWave33()
         end
         
         index = index + 1
-        return 20.0
+        return 10.0
     end, 0)
 end
 
