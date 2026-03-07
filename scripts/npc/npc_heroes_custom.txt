@@ -134,4 +134,12 @@
     {
         "Ability6"                  "underlord_custom_abyssal_retribution" // A sua Ultimate nova
     }
+
+    //==================================================
+    // HERO: npc_dota_hero_faceless_void
+    //==================================================
+    "npc_dota_hero_faceless_void"
+    {
+        "Ability2"                  "void_custom_time_field"
+    }
 }

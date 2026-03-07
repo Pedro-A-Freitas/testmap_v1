@@ -629,4 +629,31 @@
 			}
 		}
 	}
+
+	"void_custom_time_field"
+	{
+		"ID"                            "6004"
+		"BaseClass"                     "ability_lua"
+		"ScriptFile"                    "abilities/void_custom_time_field"
+		"MaxLevel"                      "4"
+		
+		// Adicionei o AOE aqui para habilitar o círculo de pre-cast
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT + DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityTextureName"            "faceless_void_time_dilation"
+		
+		"AbilityCastPoint"              "0.3"
+		"AbilityCastRange"              "700" // Distância que o Void consegue conjurar
+		"AbilityCooldown"               "34 28 22 16"
+		"AbilityManaCost"               "75 80 85 90"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"              "FIELD_INTEGER"
+				"radius"                "375" // É ESSA LINHA que faz o círculo de pre-cast aparecer!
+			}
+		}
+	}
 }
